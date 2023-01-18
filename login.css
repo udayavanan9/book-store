@@ -1,0 +1,170 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/book1.jpg);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: 600px;
+    position: relative;
+   
+}
+nav{
+    background: white;
+    padding: 1rem;
+}
+.logo-text{
+    font-family:century;
+    display: flex;
+   align-items: center;
+}
+.logo-text i{
+   font-size: 30px;
+   background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+   -webkit-background-clip:text ;
+   -webkit-text-fill-color: transparent;
+}
+.logo-text h2{
+    margin-left: 5px;
+    font-size: 30px;
+    background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+.form{
+    border: 0.3px solid rgb(0, 183, 255);
+    background: transparent;
+    position: absolute;
+    top: 180px;
+    left: 830px;
+    display: grid;
+    padding: 5rem 2rem;
+    border-radius: 13px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.google{
+    text-align: center;
+}
+.google a{
+   background: rgb(0, 183, 255);
+   padding: 10px 90px;
+   border-radius: 20px;
+   font-size: 19px;
+}
+.google a:hover{
+    opacity: 0.7;
+}
+.google h4{
+    position: relative;
+}
+.google h4::before{
+    content: "";
+   position: absolute;
+   width: 160px;
+   height: 0.3px;
+   top: 9px;
+   left: 1px;
+   background: rgb(148, 146, 146);
+}
+.google h4::after{
+    content: "";
+    position: absolute;
+    width: 160px;
+    top: 9px;
+   right: 1px;
+    height: 0.3px;
+    background: rgb(148, 146, 146);
+}
+ .form .google h4{
+    text-align: center;
+    margin: 10px;
+    margin-top: 23px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: monospace;
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+input{
+    margin: 20px 0;
+    height: 40px;
+    width: 370px;
+    outline: none;
+    border: 0.3px solid gray;
+    border-radius: 2px;
+    color: rgba(0, 0, 0,0.7);
+    font-size:20px ;
+}
+
+::placeholder{
+    font-size: 15px;
+    color: rgb(94, 93, 93);
+    opacity: 0.4;
+}
+input:focus{
+    padding: 5px;
+   font-size: 12px;
+   border: 0.3px solid rgb(0, 183, 255);
+}
+.forgot{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgot a{
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn a{
+    padding: 9px 15px;
+    color: aliceblue;
+    background: rgb(0, 183, 255);
+    border-radius: 26px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 19px;
+   
+}
+.btn a:hover{
+    opacity: 0.7;
+}
+.icons{
+    display: flex;
+    justify-content:center;
+    margin-top: 26px;
+    
+    
+}
+.icons i{
+   
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    padding: 3px 15px;
+}
+.icons i:nth-child(2){
+    color: rgb(0, 238, 255);
+}
+.icons i:nth-child(3){
+    color:rgb(221, 0, 110) ;
+}
+.icons i:nth-child(1){
+    color:blue;
+}
+.icons i:nth-child(4){
+    color:rgb(0, 255, 38);
+}

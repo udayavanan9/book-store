@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-text">
+           <i class="fa fa-book"></i>
+            <h2>Oxford</h2>
+        </div> 
+       
+            <div class="navs">
+                <ul>
+                    <div class="para">
+                        <input type="search" placeholder="search here">
+                        <label for=""><i class="fa fa-search"></i></label>
+                        
+                    </div>
+                    <li><a class="" href="home.html">Home</a> </li>
+                    <li><a  href="store.html">Store</a> </li>
+                    <li><a href="offers.html">Offer</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                    <div class="cart">
+                        <i class="fa fa-shopping-cart"><span>0</span></i>
+                    </div>
+                </ul>
+            </div>
+    </nav>
+    <div class="back-img"></div>
+    <div class="text1">
+        <h2>Crime Books</h2>
+       
+    </div>
+    <div class="wrapper">
+        <div class="box">
+            <div class="image">
+            <img src="images/crime1.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3> The City Of Strangers</h3>
+                <h4>Michael Russell</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+            </div>
+            <div class="price">
+                <h5 id="d">RS.640</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart" id="demo" onclick="Toggle()"></i>
+                    
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime2.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3> The City Of Shadows</h3>
+                <h4>Michael Russell</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+            </div>
+            <div class="price">
+                <h5>RS.440</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart" id="demo" onclick="Toggle()"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime3.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3> The book of coldcases</h3>
+                <h4>Simone James</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+            </div>
+            <div class="price">
+                <h5>RS.740</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart" id="demo" onclick="Toggle()"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime4.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3> The long Shadow</h3>
+                <h4>Celia framlin</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+            </div>
+            <div class="price">
+                <h5>RS.540</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime5.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3> The Mirror Man</h3>
+                <h4>lars kepler</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+            </div>
+            <div class="price">
+                <h5>RS.370</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime6.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3>The Girl Unknown</h3>
+                <h4>karen pelly</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+            </div>
+            <div class="price">
+                <h5>RS.580</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime7.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3>Reluctant Detactive</h3>
+                <h4>tom fowler</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+            </div>
+            <div class="price">
+                <h5>RS.840</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+            <img src="images/crime8.jpg" alt="">
+        </div>
+            <div class="name">
+                <h3>EvilUnder Detactive</h3>
+                <h4>agatha chistie</h4>
+            </div> 
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+            </div>
+            <div class="price">
+                <h5>RS.440</h5>
+                <div class="all">
+                    <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="text1">
+        <h2>Fiction Books</h2>
+       
+    </div>
+    <div class="wrapper">
+    <div class="box">
+        <div class="image">
+        <img src="images/crime1.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The City Of Strangers</h3>
+            <h4>Michael Russell</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.240</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his8.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The World Soin</h3>
+            <h4>coulm mccann</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.640</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his7.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The Master</h3>
+            <h4>colm toibin </h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.440</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his6.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The House Of Fortune</h3>
+            <h4>jessi burton</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.440</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his5.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The Piller Of Earth</h3>
+            <h4>ken follett</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.540</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his4.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>Children of Jocasto</h3>
+            <h4>nataly haynes </h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.340</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+     <div class="box">
+        <div class="image">
+        <img src="images/crime7.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>Reluctive Detective</h3>
+            <h4>tom fowler</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.440</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his2.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>The Nightingale</h3>
+            <h4>Kristin hannah</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.540</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/his1.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>Gate Of Fire </h3>
+            <h4>steve patinson</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.640</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="text1">
+    <h2>Story Books</h2>  
+</div>
+<div class="wrapper">
+    <div class="box">
+        <div class="image">
+        <img src="images/crime3.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> Cold Cases </h3>
+            <h4>simmon james</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.520</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all7.jpeg" alt="">
+    </div>
+        <div class="name">
+            <h3> Chase Your Dreams</h3>
+            <h4>alka dixit</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.540</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all6.jpeg" alt="">
+    </div>
+        <div class="name">
+            <h3>A Fine Balance</h3>
+            <h4> Rohinton Mistry</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.640</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all5.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>Fifty Shades</h3>
+            <h4>e.l james </h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.340</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all4.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3>Leaving Time</h3>
+            <h4>jodi picoult</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.490</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all3.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> Harry Potter</h3>
+            <h4>j.k rowling </h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.840</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all2.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The atlantis gene</h3>
+            <h4>a.g riddle </h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+        <div class="price">
+            <h5>RS.640</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+        <img src="images/all.jpg" alt="">
+    </div>
+        <div class="name">
+            <h3> The Mirror Man</h3>
+            <h4>lars kepller</h4>
+        </div> 
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        </div>
+        <div class="price">
+            <h5>RS.440</h5>
+            <div class="all">
+                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-heart-o"></i>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

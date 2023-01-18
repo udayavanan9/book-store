@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-slider-thumb{
+    color: blue;
+    background-color: blanchedalmond;
+}
+nav{
+    background: transparent;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo-text{
+    position: relative;
+    font-family:century;
+    display: flex;
+   align-items: center;
+}
+.logo-text i{
+   font-size: 30px;
+   background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+   -webkit-background-clip:text ;
+   -webkit-text-fill-color: transparent;
+}
+.logo-text h2{
+    margin-left: 5px;
+    font-size: 30px;
+    background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+nav .navs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 23px;
+    right:20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.navs ul li{
+    font-family: sans-serif;
+    font-size: 19px;
+    padding:0 30px ;
+
+}
+.navs ul li a{
+    text-decoration: none;
+    color:rgb(0, 183, 255);
+    transition: all 0.2s ease-in;  
+}
+.navs ul li a:hover{
+    background: rgb(0, 183, 255);
+    padding: 3px 6px;
+    color: white;
+    border-radius: 5px;
+}
+.navs ul li .home{
+    color: rgb(0, 140, 255);
+}
+.nav-search{
+    margin:0  40px;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 140, 255);
+    position: relative;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.nav-search:focus{
+    padding-left: 10px;
+}
+ .ii i{
+    position: absolute;
+    top: 32px;
+    left: 940px;
+    cursor: pointer;
+    color: gray;
+}
+.head{
+    margin: 20px 13px;
+
+}
+.head h2{
+    font-size: 36px;
+    margin-top: 10px;
+    color:rgb(0, 183, 255);
+    font-family: century;
+    position: relative;
+}
+.head span{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    padding: 5px 3px;
+    border-radius: 50%;
+    margin-left:  120px;
+    margin-top: -10px;
+    position: absolute;
+    top: 86px;
+    left: 30px;
+    animation: roll 3s infinite;
+}
+@keyframes roll{
+    0%{
+        transform: translateX(200px);
+        
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(400px);
+        transform: rotate(360deg);
+    }
+}
+
+.footer{
+    background-color: rgb(245, 252, 255);
+    position: relative;
+    padding: 20px;
+    
+}
+.text-head{
+    margin-left: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.one, .two, .three{
+    margin-top: 40px;
+    font-size: 20px;
+}
+ .text-head .one ol li{
+    padding: 5px 0;
+    color: gray;
+    list-style: none;
+}
+.text-head .two ol li{
+    padding: 5px 0;
+    color: gray;
+    list-style: none;
+}
+.text-head .three ol li{
+    padding: 5px 0;
+    color: gray;
+    list-style: none;
+}
+.content{
+    gap: 10px;
+}
+.box{
+    margin: 10px 10px;
+    padding: 9px 1px;
+    width: 600px;
+    margin-left: 15px;
+    border: 0.3px solid aqua;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.2),3px 5px 5px rgba(0, 0, 0, 0.2);
+    background: white;
+    display: grid;
+    display: inline-block;
+    position: relative;
+    transition: all 0.6s ease-in;
+}.box:hover {
+    background-color: aqua;
+    animation: box 1s  ease-in-out ;
+}
+
+.box:hover button{
+    color: aqua;
+    border: 0.3px solid aqua;
+    background-color: rgb(30, 29, 29);
+    z-index: 1;
+}
+
+p{
+    width: 370px;
+   position: absolute;
+   top: 10px;
+   color: gray;
+   right: 60px;
+}
+button{
+    position: absolute;
+    bottom: 35px;
+    left: 167px;
+    padding: 8px 10px;
+    border: 0.3px solid white;
+color: white;
+cursor: pointer;
+border-radius: 17px;
+background: red;
+transition:all 0.5s ease ;
+}
+img{
+width: 110px;
+}
+.name{
+    color:rgb(0, 183, 255) ;
+}
+.name h5{
+    color: rgb(243, 146, 146);
+}
+.price {
+    display: flex;
+    color: gray;
+}
+.price h4{
+    margin-left: 4px;
+    color: rgb(74, 73, 73);
+}
+.footer{
+    margin-left:5px;
+}
+.footer .icons{
+    position: absolute;
+    top: 180px;
+    right: 100px;
+}
+.footer .icons i{
+    font-size: 23px;
+    margin: 0 15px;
+    color: blue;
+}
+h1{
+    position: absolute;
+    top: 100px;
+    right: 211px;
+    color: rgb(98, 96, 96);
+}
+
+.icons i:nth-child(2){
+    color: rgb(255, 0, 166);
+}
+.icons i:nth-child(3){
+    color:rgb(0, 238, 255) ;
+}
+.icons i:nth-child(1){
+    color:blue;
+}
+.icons i:nth-child(4){
+    color:rgb(0, 255, 38);
+}
+.icons i:nth-child(5){
+    color:rgb(255, 0, 0);
+}
+.bottom p{
+    text-align: center;
+    margin-top: 360px;
+    color: rgb(99, 97, 97);
+}
+.cart i{
+    font-size: 23px;
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.cart i:hover{
+    transform:scale(1.5)
+}
+.cart i span{
+font-size: 14px;
+color: rgb(255, 0, 0);
+font-weight: bold;
+}
+.name h3{
+    margin-left: 0;
+    font-size:20px ;
+    color: rgb(0, 166, 255);
+}
+h3{
+    font-size:22px ;
+    color: rgb(255, 0, 166);
+    margin-left: 20px;
+}

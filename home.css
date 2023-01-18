@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/general-bundle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:50%;
+  
+   
+}
+nav{
+    background: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo-text{
+    position: relative;
+    font-family:century;
+    display: flex;
+   align-items: center;
+}
+.logo-text i{
+   font-size: 30px;
+   background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+   -webkit-background-clip:text ;
+   -webkit-text-fill-color: transparent;
+}
+.logo-text h2{
+    margin-left: 5px;
+    font-size: 30px;
+    background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+nav .navs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 23px;
+     right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.navs ul li{
+    font-family: sans-serif;
+    font-size: 19px;
+    padding:0 30px ;
+
+}
+.navs ul li a{
+    text-decoration: none;
+    color:rgb(0, 183, 255);
+    transition: all 0.2s ease-in;  
+}
+.navs ul li a:hover{
+    background: rgb(0, 183, 255);
+    padding: 3px 6px;
+    color: white;
+    border-radius: 5px;
+}
+.navs ul li .home{
+    color: rgb(0, 140, 255);
+}
+
+.head{
+   margin-left: 600px;
+   margin-top: 5px;
+   width: 400px;
+   position: relative;
+   
+}
+.head h2{
+    font-family:cursive;
+    font-size: 60px;
+    background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
+.head p{
+    font-family:'Courier New', Courier, monospace;
+   text-align: center;
+     color: rgb(0, 183, 255);
+    font-size: 20px;
+    position: relative;
+
+}
+.back-color i{
+    background:linear-gradient(40deg,rgb(92, 184, 255) 36%,rgb(255, 0, 208)) ;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    top: 111px;
+    left: 564px;
+    position: absolute;
+    transform:scale(2.8);
+    animation: book 6s linear;
+    
+}
+@keyframes book{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+      
+    }
+    100%{
+        transform: scale(2.8);
+    }
+}
+.text h1{
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(255, 0, 217);
+    transform:translateZ(200px);
+}
+span{
+    color: rgb(0, 183, 255);
+}
+.search{  
+    width: 500px;
+    margin-left: 0px;
+}
+input{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 250px;
+    padding: 8px 0;
+    border-radius: 17px;
+    outline: none;
+    color: gray;
+    border-radius: 15px;
+    font-size: 13px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-shadow:0 1px 0 1px rgb(0, 183, 255);
+    color: gray;
+    border: 0.3px solid transparent;
+}
+input:focus{
+    color: rgb(163, 162, 162);
+    font-size: 10px;
+    padding: 10px;
+}
+::placeholder{
+    color: gray;
+    padding: 9px;
+}
+label{
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+    background: transparent;
+    padding: 6px;
+    border-radius: 50%;
+}
+h3{
+    color: rgb(0, 183, 255);
+    margin-left: 182px;
+    margin-top: 10px;
+    font-family: century;
+    font-size: 16px;
+}
+.text-main{
+    position: absolute;
+    margin-left: 90px;
+}
+.text-main h2{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    color:rgb(0, 183, 255) ;
+}
+.text-main p{
+    margin-top: 10px;
+    font-size: 23px;
+    width: 550px;
+    color: gray;
+}
+.text-main h1{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color:rgb(0, 183, 255) ;
+}
+button{
+    padding: 9px 10px;
+    margin-top: 20px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background:rgb(0, 183, 255) ;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+.book-head {
+    display: flex;
+    justify-content: space-evenly;
+    width:95vw;
+    height: 260px;
+    margin-left: 20px;
+   font-family: cursive;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.book-head:hover h6{
+transform: translateY(-50px);
+}
+h6{
+    transform: rotate(340deg);
+    transition: all 3s ease;
+}
+.book1{
+    height: 100px;
+    color: gold;
+    margin-top: 397px;
+    padding: 20px 100px;
+    background:rgb(255, 251, 217);
+    border-top: 10px solid gold;
+    box-shadow: 5px 5px 5px rgba(255, 215, 0,0.3);
+}
+.book2{
+    color: rgb(0, 255, 106);
+    margin-top: 397px;
+    height: 100px;
+    padding: 20px 100px;
+    background: rgb(219, 255, 234);
+    border-top: 10px solid rgb(0, 255, 106);
+    box-shadow: 5px 5px 5px rgba(0, 255, 106,0.3);
+}
+.book3{
+    height: 100px;
+    color: rgb(0, 255, 251);
+    margin-top: 397px;
+    padding: 20px 100px;
+    background: rgb(220, 253, 255);
+    border-top: 10px solid rgb(0, 255, 251);
+    box-shadow: 5px 5px 5px rgba(0, 255, 255,0.3);
+    animation: book3 3s infinite;
+}
